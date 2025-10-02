@@ -19,7 +19,7 @@ function lowerCaseWords(arr) {
     return promise;
 }
 
-const mixedArray = [10, true, 25, false] 
+const mixedArray = ["PIZZA", 10, true, 25, false, "Wings"]; 
 
 lowerCaseWords(mixedArray).then((result) => {
     console.log("Input Array: [" + mixedArray + "]")
